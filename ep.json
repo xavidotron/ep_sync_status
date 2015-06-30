@@ -1,0 +1,11 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "hooks": {
+        "eejsBlock_styles": "ep_sync_status/index",
+        "eejsBlock_editbarMenuLeft": "ep_sync_status/index"
+      }
+    }
+  ]
+}

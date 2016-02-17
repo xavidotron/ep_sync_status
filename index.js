@@ -1,5 +1,5 @@
-exports.eejsBlock_styles = function(hook_name, args, cb){
-   args.content += '<style type="text/css">' 
+exports.eejsBlock_styles = function(hook_name, context, cb){
+   context.content += '<style type="text/css">'
     + '.toolbar ul li.syncstatus {'
     + '  display: none;'
     + '  line-height: 32px;'

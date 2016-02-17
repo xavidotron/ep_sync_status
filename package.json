@@ -1,6 +1,6 @@
 {
-  "name": "ep_sync_staus",
-  "version": "0.0.0",
+  "name": "ep_sync_status",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

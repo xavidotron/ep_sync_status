@@ -13,7 +13,7 @@ exports.eejsBlock_styles = function(hook_name, context, cb){
 
 exports.eejsBlock_editbarMenuLeft = function (hook_name, context, cb) {
   context.content
-    += '<li class="syncstatus" id="syncstatussyncing">Saving...</li>'
-    + '<li class="syncstatus" id="syncstatusdone">Saved.</li>';
+    += '<li class="syncstatus" id="syncstatussyncing" data-l10n-id="ep_sync_status.saving">Saving...</li>'
+    +  '<li class="syncstatus" id="syncstatusdone"    data-l10n-id="ep_sync_status.saved">Saved.</li>';
   cb();
 };

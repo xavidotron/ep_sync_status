@@ -2,6 +2,9 @@
   "parts": [
     {
       "name": "main",
+      "client_hooks": {
+        "postToolbarInit": "ep_sync_status/static/js/index"
+      },
       "hooks": {
         "eejsBlock_styles": "ep_sync_status/index",
         "eejsBlock_editbarMenuLeft": "ep_sync_status/index"

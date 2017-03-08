@@ -1,0 +1,6 @@
+.toolbar ul li.syncstatus:not(.separator) {
+  display: none;
+  line-height: 32px;
+  font-size: 14pt;
+  color: #666;
+}
